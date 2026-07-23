@@ -7,7 +7,7 @@
 **当前Workers版本：V2.7.13 Beta4; Agent版本：1.3.2**
 
 > [!IMPORTANT]
-> V2.7.10 加入了 CSP 内容安全策略。默认只允许同源资源和必要的 Cloudflare/Google Fonts 资源0；
+> V2.7.10 加入了 CSP 内容安全策略。默认只允许同源资源和必要的 Cloudflare/Google Fonts 资源；
 > 
 > 第三方背景图、外部 CSS/JS、字体、图片等资源会被浏览器拦截，需要在管理后台 → 外观 → CSP 设置中加入可信域名白名单后才能加载。
 > 
