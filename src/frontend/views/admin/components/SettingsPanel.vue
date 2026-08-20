@@ -123,6 +123,10 @@
             <input type="checkbox" id="cfg_show_tf" v-model="settings.show_tf">
             <label>{{ trans.showTf }}</label>
           </div>
+          <div class="form-group flex-1 checkbox-item">
+            <input type="checkbox" id="cfg_show_three_net_details" v-model="settings.show_three_net_details">
+            <label>{{ trans.showThreeNetDetails }}</label>
+          </div>
         </div>
 
         <div class="form-group">
@@ -281,7 +285,7 @@
               v-model="settings.notification_template"
               class="form-textarea"
               rows="5"
-              placeholder="{{emoji}}【CF Server Monitor】{{event}}\n服务器: {{client}}\n详情:\n{{message}}\n时间: {{time}}"
+              placeholder="{{emoji}}【CF Server Monitor】{{event}}\n\n{{message}}\n\n{{time}}"
             ></textarea>
           </div>
         </div>
